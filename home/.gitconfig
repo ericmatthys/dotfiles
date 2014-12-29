@@ -1,6 +1,8 @@
 [user]
   name = Eric Matthys
   email = ericmatthys@gmail.com
+[push]
+  default = simple
 [pull]
   rebase = true
 [rebase]
