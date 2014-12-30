@@ -79,8 +79,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+eval "$(rbenv init -)"
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
