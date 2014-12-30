@@ -23,4 +23,5 @@
 [difftool]
   prompt = false
 [core]
+  editor = vim
   excludesfile = /Users/eric/.gitignore
